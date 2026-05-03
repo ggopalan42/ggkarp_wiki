@@ -1,0 +1,18 @@
+1. This project implements Karpathy's LLM Wiki idea implemented by me (GG) and tuned towards my usecases
+    a. Linkedin Post: https://x.com/karpathy/status/2039805659525644595
+    b.  LLM Wiki Idea: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+2. The basic idea behind Karpathy's idea is simple: Use an LLM to curate, link, summarize, understand various
+   pieces of knowledge (articles, papers, books, images, etc.) using simple directory structures and markdown
+   files to index and link the data. No fancy databases, RAGs, graph structiures. 
+3. Initial data is brought in some "raw" format - links, PDF, images, etc. Then this data is idexed,
+   linked, etc. by an LLM
+4. In my (GG) case, I would like for the data to be separated as per the "Top Level Domains" as per below.
+   There should be *NO* cross linking between therse top level domains as they are completely separate
+   domains and linking across them would simply confuse. All of the markdowns, raw, index, logs, etc. should
+   be separated as per below
+       a. Personal:  For personal information like financial, taxes, books read, useful information etc.
+       b. Companies_worked_for: Companies that I have worked for in the past
+       c. Companies_interesting: Interesting Companies
+       d. GenAI: All things LLM and related technologies. This includes thing like World Models
+       e. Technical_general: All general technical information
+5. This is the top level plan. This plan will be refined with the use of LLMs
