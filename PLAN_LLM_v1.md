@@ -25,6 +25,18 @@ Data is organized into five top-level domains. There is **no cross-linking** bet
 | `GenAI` | All things LLM and related technologies, including World Models |
 | `Technical_general` | All general technical information |
 
+## Subdomains
+
+A top-level domain may contain subdomains (subdirectories) for finer organization. The first one is:
+
+| Subdomain | Description |
+|---|---|
+| `GenAI/world_models` | World Models and related technologies |
+
+### Linking within a domain
+
+Each subdomain initially stands on its own — independent raw data, markdowns, index, and log. At a later stage, GG may ask the LLM to **link the subdomains within a single top-level domain** together, so that knowledge is curated and synthesized at the top-level domain level and becomes more easily searchable. This intra-domain linking is allowed; the **no cross-linking rule still applies strictly across top-level domains**.
+
 ## Status
 
 This is the top-level plan. It will be refined in subsequent iterations using LLMs.
